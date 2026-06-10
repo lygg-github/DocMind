@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tasklist /FI \"IMAGENAME eq python.exe\")",
+      "Bash(powershell *)",
+      "Bash(\"D:\\\\AI\\\\SuperMew-main\\\\.venv\\\\Scripts\\\\python.exe\" backend/app.py)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:8000/docs)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":8000\")",
+      "Bash(findstr \":8000.*LISTENING\")",
+      "Bash(taskkill *)",
+      "Bash(curl -s http://localhost:8000/docs)",
+      "Bash(pip show *)",
+      "Bash(python *)",
+      "Bash(D:\\\\AI\\\\SuperMew-main\\\\.venv\\\\Scripts\\\\python.exe *)",
+      "Bash(cmd *)"
+    ]
+  }
+}
