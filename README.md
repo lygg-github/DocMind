@@ -1,4 +1,4 @@
-# SuperMew 项目说明
+# SuperMew 项目说明，本项目学习于：https://github.com/icey1287/SuperMew
 
 Agent的项目记录，方便后续持续更新与展示。
 
